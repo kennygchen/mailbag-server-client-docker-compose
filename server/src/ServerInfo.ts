@@ -42,4 +42,3 @@ serverInfo.smtp.auth.user = getEnvVariable("SMTP_USER");
 serverInfo.smtp.auth.pass = getEnvVariable("SMTP_PASS");
 serverInfo.imap.auth.user = getEnvVariable("IMAP_USER");
 serverInfo.imap.auth.pass = getEnvVariable("IMAP_PASS");
-console.log("ServerInfo: ", serverInfo);

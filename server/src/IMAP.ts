@@ -38,7 +38,8 @@ export class Worker {
     * Constructor.
     */
    constructor(inServerInfo: IServerInfo) {
-      console.log("IMAP.Worker.constructor", inServerInfo);
+      // console.log("IMAP.Worker.constructor", inServerInfo);
+      console.log("IMAP.Worker.constructor got inServerInfo");
       Worker.serverInfo = inServerInfo;
    } /* End constructor. */
 

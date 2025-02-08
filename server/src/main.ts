@@ -33,7 +33,8 @@ app.get("/mailboxes",
       try {
          const imapWorker: IMAP.Worker = new IMAP.Worker(serverInfo);
          const mailboxes: IMAP.IMailbox[] = await imapWorker.listMailboxes();
-         console.log("GET /mailboxes (1): Ok", mailboxes);
+         // console.log("GET /mailboxes (1): Ok", mailboxes);
+         console.log("GET /mailboxes (1): Ok");
          inResponse.status(200);
          inResponse.json(mailboxes);
       } catch (inError) {
