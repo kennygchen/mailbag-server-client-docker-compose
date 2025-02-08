@@ -1,0 +1,35 @@
+{
+  "name": "mailbag",
+  "version": "1.0.0",
+  "main": "main.tsx",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --host 0.0.0.0 --port 3000"
+  },
+  "author": "Kenny Chen",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@webpack-cli/generators": "^3.0.7",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@types/material-ui": "^0.21.17",
+    "@types/react": "^17.0.83",
+    "axios": "^1.7.8",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

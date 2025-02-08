@@ -1,0 +1,19 @@
+Testing Environment:
+- OS: Windows 10 Home v22H2
+- CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+- GPU: Nvidia GeForce RTX 2070 Super
+- RAM: 16GB
+- System type: 64-bit operating system, x64-based processor
+- Node.js version: 22.9.0
+- NPM version: 10.8.3
+- Postman: v11.21.0
+- TSC: version 5.2.2
+
+I tested the client code on multiple browsers, such as Chrome, Edge, Firefox to ensure compatibility.
+
+AJAX helps improve user experience in a web application. It enables parts of a web page to update dynamically without requiring a full page reload.
+This make the web application a smoother and more interactive experience for users.
+This also creates a faster response times by fetching data asynchronously. 
+It reduces the time users spend waiting for page loads.
+It also reduces server load. Instead of reloading the entire page, AJAX requests only the necessary data, 
+reducing bandwidth consumption and server processing overhead.
