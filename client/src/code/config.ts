@@ -1,5 +1,5 @@
 export const config: { serverAddress: string, userEmail: string } =
 {
-   serverAddress: process.env.REACT_APP_API_URL || "http://localhost:8080",
+   serverAddress: "http://18.116.23.143:8080",
    userEmail: "user@domain.com"
 };
